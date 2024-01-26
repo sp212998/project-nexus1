@@ -1,0 +1,91 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    height:5rem;
+    background-color: antiquewhite;
+}
+
+.navbar-brand{
+    color: yellowgreen;
+}
+
+.carousel-item{
+    position: relative;
+}
+
+.butt{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+ .head1{
+font-family: 'Times New Roman', Times, serif;
+font-size:5rem;
+font-weight: bold;
+color: rgb(255, 255, 255);
+}
+
+.btu1{
+height: 2rem;
+width: 8rem;
+color:  rgb(27, 29, 30);
+background-color: greenyellow;
+border: 1px solid white;
+}
+.btu2{
+    height: 2rem;
+    width: 8rem;
+    color: rgb(27, 29, 30);
+    background-color: greenyellow;
+    border: 1px solid white;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 10% 10%;
+    padding: 10% 10%;
+    border: 1px solid black;
+}
+
+.img1 img{
+    height: 12rem;
+    width: 12rem;
+}
+
+.text1{
+    
+}
+
+
+.head2{
+    font-weight: bold;
+
+} 
+
+
+.btu3{
+    background-color: yellowgreen;
+    color: white;
+ height: 2rem;
+ width: 5rem;
+}
+.btu3:hover{
+  opacity: 0.8;
+  transition: 0.5ms;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rooms{
+    text-align: center;
+    margin: 5%
+}
